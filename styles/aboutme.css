@@ -1,0 +1,40 @@
+.aboutme-imgs{
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    justify-content: center;
+    margin-bottom: 20px;
+    
+}
+
+.portfolio-imgs {
+    width: 33%;
+    padding: 3px;
+}
+
+.portfolio-imgs img{
+    width: 100%;
+height: auto;
+border-radius: 15px;
+}
+/* ========ABOUT SECTION======== */
+
+.about-info-container{
+    padding: 20px;
+}
+.about-info-container h1{
+margin-bottom:15px;
+padding-left: 30px;
+font-weight: bold;
+font-size: 1.5rem;
+
+}
+.qaulification-bullets{
+    list-style: inside;
+    font-weight: bold;
+    line-height: 1.3;
+
+}
+.qaulification-bullets li{
+    margin-bottom: 5px;
+}

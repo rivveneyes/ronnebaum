@@ -1,0 +1,127 @@
+:root{
+    --accent-color:red;
+}
+
+body{
+font-size: 18px;
+}
+main{
+    background-color: var(--accent-color);
+}
+
+#header-nav{
+    background-image: url("../imgs/logo.png") ;
+    background-position: center;
+    background-repeat: repeat-x;
+    background-size: 140px;
+    min-width: 100%;
+    height: 100px;
+}
+
+header{
+    font-size: 1.2rem; 
+    max-width: fit-content;
+    color:white;
+    background-color:var(--accent-color); 
+    border-radius: 10px;
+    padding:5px;
+}
+.grasp ol{
+    display: flex;
+    justify-content: right;
+    margin-top: 20px;
+}
+.grasp ol li:not(:last-child){
+    margin-right: 10px;
+}
+a{
+    text-decoration: none;
+    color: silver;
+    font-weight: 800;
+    text-shadow: -1px -1px var(--accent-color);
+}
+
+ol li a:hover{
+color: white;
+text-decoration: underline;
+}
+
+.welcome-banner{
+background-color: silver;
+text-align: center;
+font-size: 25px;
+padding-top: 18px;
+padding-bottom: 18px;
+}
+
+/* joe's protrate along with small intro */
+
+.imgcard{
+    margin: 5px;
+    margin-right: 0px;
+    background-color: silver;
+    color:white;
+    display: flex;
+    align-items: center;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.words{  
+    padding: 5px;
+    padding-left:10px;
+    line-height: 1.2;
+}
+.joe{
+    height: auto;
+    max-width:40%;
+    
+}
+
+/* ========TESTMIONALS SECTIONS====== */
+.testimonials-contaier{
+    text-align:center;
+    margin-bottom: 50px;
+}
+
+.testimonials-contaier h2{
+background-color: #dc5757f0;
+text-align: center;
+font-size: 1.5rem;
+padding:10px;
+margin-bottom: 20px;
+
+}
+.testimonials-list{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+}
+.per-testimonial{
+    padding: 10px;
+    margin: 10px;   
+    background-color: silver;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.person-name-img img{
+width: 100%;
+height: auto;
+border-radius: 15px;
+}
+.testimonials-title{
+    font-size: 1.3rem;
+    display: block;
+    padding: 5px;
+    }
+
+
+
+.per-testimonial p{
+    padding: 5px 0 5px 5px;
+    border-bottom-left-radius:15px ;
+    border-bottom-right-radius:15px ;
+    color: white;
+    line-height: 1.5;
+}
